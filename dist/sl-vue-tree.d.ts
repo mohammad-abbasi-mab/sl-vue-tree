@@ -1,6 +1,7 @@
 import Vue from 'vue';
 export interface ISlTreeNodeModel<TDataType> {
     title: string;
+    id: string;
     isLeaf?: boolean;
     children?: ISlTreeNodeModel<TDataType>[];
     isExpanded?: boolean;
